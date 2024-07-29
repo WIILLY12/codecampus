@@ -1,0 +1,86 @@
+ body {
+background-color: grey;
+ }
+ @media screen and (min-width: 320px) {
+ body {
+ background-color: green;
+ }
+ }
+ @media screen and (min-width)
+{
+body {
+    background-color: yellow;
+    }
+    }
+    @media screen and (min-width: 768px) {
+    body {
+    background-color: orange;
+    }
+    }
+    @media screen and (min-width: 960px) {
+    body {
+    background-color: red;
+    }
+    }
+
+    @media (min-width: 750px) {
+/* styles */
+}
+.thing {
+    width: 50%;
+   }
+   @media (min-width: 30rem) {
+    .thing {
+    width: 75%;
+    }
+   }
+   /* A few more styles would go between them */
+   .thing2 {
+    width: 65%;
+   }
+   @media min-width: 30rem
+    .thing
+    width: 75%;
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+/* media= q=uery for mobile */
+
+
+@media screen and (max-width:568px){
+    body{
+         background-color: blue;
+    }
+}
+h1{
+    font-size: 53px;
+    text-align: center;
+    color: aqua;
+    margin-top: 60px;
+     padding-bottom: 15px;
+}
+    /* media query for tab */
+ @media  screen and(min-width: 569px){
+        body{
+            background-color: white;
+        }
+    }
+    /* media query for desktop */
+    @media screen and (min-width:962px){
+    body{
+        background-color:navy;
+    }
+}
+margin  auto
+
+
+p{
+    width: 90%;
+    text-align: justify;
+font-size: 35px;    
+color: blue;
+line-height: 40px;
+margin: 60px;
+}
+
+

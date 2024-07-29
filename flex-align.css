@@ -1,0 +1,93 @@
+.container{
+    width: 50%;
+    height: 300px;
+    border: 1px solid pink;
+    display: flex
+}
+
+.container1{
+      border: 1px solid pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+margin: 10px;
+    padding: 10px;
+    background-color: grey;
+    height: 500px;
+}
+
+
+[class^="flex"]{
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    background-color: blue;
+}
+.flex4{
+align-self: flex-start ;
+}
+
+.flex1{
+    align-self:  flex-end;
+}
+
+nav{
+   display:flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: brown;
+    height: 40px;
+}
+
+nav a{
+    color: white;
+   font-size: 24px;
+}
+PERFUME
+Gabrielle Essence Eau de Parfum
+A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

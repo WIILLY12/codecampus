@@ -1,0 +1,49 @@
+.content{
+width: 70%;
+border: 2px solid black;
+margin:40px auto;
+display: grid;
+grid-template-columns: 30% 30% 30%;
+grid-auto-columns: 40% 40%;
+gap: 30px;
+padding-left: 20px;
+justify-content: center;
+align-items: center;
+}
+
+button{
+    background-color: rgb(135, 142, 235);
+    width: 60%;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    outline: none;
+}
+.cont2{
+    display: grid;
+    grid-row: 2;
+    grid-row: 2;
+}
+
+.cont3{
+    grid-row: 2;
+    grid-column: 3;
+}
+.cont4{
+    grid-row: 2;
+    grid-column: 3;
+    
+}
+.cont5{
+grid-row: 2;
+grid-column: 3;
+}
+
+
+
+[class^=""]{
+    align-items: center;
+}

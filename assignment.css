@@ -1,0 +1,28 @@
+@font-face{
+    font-family: Inter V;
+    src: url(fonts/Inter.var.woff2);
+    format(woff2-variations)
+    font weight:  100 900
+    font display:fallback
+    font-style:oblique  10deg 0degg
+}
+body{
+    background-color: var(background-color);
+    color: var(foreground);
+    transition: all 0.35s;
+    font-size: 1.2em;
+    font-family: var(mainfont);
+    font-weight: 400;
+}
+@supports{font-variation-setting-width 200}{
+body(
+    font-family:Inter v;
+font variation -settings:weight 300 slant -4
+font feature-setting:cv08 cv05
+)
+}
+
+
+
+
+
